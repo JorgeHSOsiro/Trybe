@@ -3,8 +3,72 @@
 body{
     font-family: Roboto, sans-serif;
     margin: 32px;
+    background-color: #6D95FF;
+    color: white;
 }
 
-.titulo{
+.head-content h1{
     font-size: 32px;
+    padding: 8px;
+    text-align: center;
+}
+
+.menu{
+    margin-bottom: 12px;
+    text-align: center;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+    
+    padding: 10px;
+}
+
+.content{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 8px;
+}
+
+table tr td{
+    padding: 16px;
+    border: 0.5px solid #BACDFF;
+}
+
+.main-photo{
+    border: 10px ridge #BACDFF;
+}
+
+.photo{
+    width: 250px;
+    border: 10px ridge #BACDFF;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: #5AD5E8;
+}
+
+.main-content{
+    float: left;
+    width: 60%;
+    position: relative;
+}
+
+.side-info{
+    float: right;
+}
+
+
+footer{
+    border-top: 0.5px solid white;
 }
