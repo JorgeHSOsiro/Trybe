@@ -1,6 +1,8 @@
-let escada = [];
+let escada = "";
+let n = 5;
 
-for (let i = 0; i <= 5; i++ ) {
-    escada.push("*");
+for (let i = 1; i <= n; i++ ) {
+    escada += "*"
     console.log(escada);
 }
+
