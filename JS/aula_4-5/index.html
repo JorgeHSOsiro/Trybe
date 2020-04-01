@@ -35,7 +35,7 @@
         margin-right: auto;
       }
 
-      .main-content .left-content .small-image {
+      .main-content .left-content .small-picsum {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -56,6 +56,68 @@
   </head>
   <body>
     <script>
+        let title = document.createElement("h1");
+        title.innerHTML = "Exercício 4.5 - JavaScript DOM";
+        document.querySelector("body").appendChild(title);
+
+        let div = document.createElement("div");
+        div.className = "main-content";
+        document.querySelector("body").appendChild(div);
+
+        let divChild = document.createElement("div");
+        divChild.className = "center-content";
+        
+        document.querySelector(".main-content").appendChild(divChild);
+      
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = "algum texto";
+        divChild.appendChild(paragraph);
+
+        let divLeft = document.createElement("div");
+        divLeft.className = "left-content";
+        div.appendChild(divLeft)
+
+        let divRight = document.createElement("div");
+        divRight.className = "right-content";
+        div.appendChild(divRight)
+
+        let picsum = document.createElement("img");
+        picsum.src = "https://picsum.photos/200";
+        picsum.className = "small-image";
+        divLeft.appendChild(picsum);
+
+        let list = document.createElement("ul");
+        let number = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+        for (let key in number) {
+            let item = document.createElement("li");
+            item.innerHTML = number[key];
+            list.appendChild(item);
+        }
+        divRight.appendChild(list);
+
+        let subtitle = [];
+        for (let i = 0; i < 3; i+=1 ) {
+            subtitle[i] = document.createElement("h3");
+            // subtitle[i].innerHTML = "h3";
+            div.appendChild(subtitle[i]);
+        }
+
+        title.className = "title";
+
+        for (let i = 0; i < 3; i+=1) {
+            subtitle[i].className = "description"
+        }
+
+        div.removeChild(divLeft);
+
+        divRight.style.marginRight = "auto";
+
+        let paiDiv = divChild.parentElement;
+        paiDiv.style.backgroundColor = "green";
+
+        list.removeChild(list.lastElementChild)
+        list.removeChild(list.lastElementChild)
+
       // COLOQUE SEU CÓDIGO AQUI
     </script>
   </body>
