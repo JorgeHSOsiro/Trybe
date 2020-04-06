@@ -30,13 +30,13 @@ function userPreferences(key){
 let btnPreferences = document.querySelector("#preferences");
 btnPreferences.addEventListener('click', function(){
     // let username = document.querySelector("#username").value;
-    setPreferences("user3", user1);
+    setPreferences("user1", user1);
     userPreferences(user1);
 })
 
 console.log(localStorage.getItem("user1"));
 
-// let obj = JSON.parse(localStorage.getItem("user1"))
-    // userPreferences(obj);
+let preferences = localStorage.user1
+if (preferences) userPreferences(user1)
 
-    // localStorage.removeItem('user1')
+// localStorage.removeItem("user1")
