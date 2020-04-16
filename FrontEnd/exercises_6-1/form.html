@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Cadastro de Curriculo</h1>
+    <p>Digite suas informações com atenção!</p>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <section>
+                <label for="nome">Nome</label><br>
+                <input id="nome" type="text" required="required" placeholder="Digite seu nome" maxlength="40">
+            </section>
+            <section>
+                <label for="email">E-mail</label><br>
+                <input id="email" type="text" required="required" placeholder="email@email.com" maxlength="50">
+            </section>
+            <section>
+                <label for="cpf">CPF</label><br>
+                <input id="cpf" type="text" required="required" placeholder="0000000000" maxlength="11">
+            </section>
+            <section>
+                <label for="end">Endereço</label><br>
+                <input id="end" type="text" required="required" placeholder="Digite seu endereço" maxlength="200">
+            </section>
+            <section>
+                <label for="city">Cidade</label><br>
+                <input id="city" type="text" required="required" placeholder="Digite seu estado" maxlength="28">
+            </section>
+            <section>
+                <label for="estado">Estado</label><br>
+                <select id="estado" name="estado" required="required">
+                    <option selected="selected" value="selecione">Selecione</option>
+                </select>
+            </section>
+            <section>
+                <label for="casa"><input name="moradia" id="casa" value="casa" type="radio"> Casa</label>
+                <label for="apartamento"><input name="moradia" id="apartamento" value="apt" type="radio">Apartamento</label>
+            </section>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sobre Seu Ultimo Emprego</legend>
+            <section>
+            <label for="resumo">Resumo do Curriculo</label><br>
+            <textarea id="resumo" name="resumo" required="required" cols="70" rows="10" maxlength="1000"></textarea>
+            </section>
+            <section>
+            <label for="cargo">Cargo</label><br>
+            <input id="cargo" type="text" required="required" placeholder="Digite seu ultimo cargo" maxlength="40">
+            </section>
+            <section>
+            <label for="">Descrição Cargo</label><br>
+            <input type="text" required="required" placeholder="Descreva seu ultimo cargo" maxlength="500">
+            </section>
+            <section>
+            <label for="">Data de Inicio</label><br>
+            <input type="text" required="required" placeholder="dd/mm/aaaa">
+            </section>
+        </fieldset>
+        <button id="send" type="submit">Enviar</button>
+        <button id="clear">Limpar</button>
+    </form>
+
+    <div id="content-curriculo">
+
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
