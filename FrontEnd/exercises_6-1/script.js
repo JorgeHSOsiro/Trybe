@@ -21,6 +21,8 @@ window.onload = function () {
         validaEnd()
         validaCidade()
         validaEstado()
+        validaResumo()
+        validaCargo()
     });
 
     function validaNome() {
@@ -83,7 +85,25 @@ window.onload = function () {
         }
     }
 
+    function validaResumo() {
+        let resumo = document.querySelector('#resumo');
+        if (resumo.value == '' ) {
+            alert('O campo deve ter numeros');
+            resumo.focus();
+        } else {
+            console.log(resumo.value);
+        }
+    }
     
+    function validaCargo() {
+        let cargo = document.querySelector('#cargo');
+        if (cargo.value == '' ) {
+            alert('O campo deve ter numeros');
+            cargo.focus();
+        } else {
+            console.log(cargo.value);
+        }
+    }
 }
 
 
