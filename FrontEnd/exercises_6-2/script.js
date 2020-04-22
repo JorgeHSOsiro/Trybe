@@ -1,5 +1,12 @@
 window.onload = function() {
+    
     document.getElementById('data').DatePickerX.init();
+
+    let send = document.querySelector('#send');
+    send.addEventListener('click', function() {
+         
+         
+    });
 
 
     let state = document.querySelector('#estado');
@@ -10,9 +17,16 @@ window.onload = function() {
         opcao.value = estados;
         state.appendChild(opcao);
     }
+}
 
+new window.JustValidate('.js-form', {
+    rules: {
+       email: {
+           required: true,
+         },
+    }
+});
 
-
-
+function sendTo() {
 
 }
