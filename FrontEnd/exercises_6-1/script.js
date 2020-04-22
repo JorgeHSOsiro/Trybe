@@ -104,6 +104,10 @@ window.onload = function () {
             console.log(cargo.value);
         }
     }
+    function validaData() {
+        let data = document.querySelector('#data');
+        
+    }
 }
 
 
