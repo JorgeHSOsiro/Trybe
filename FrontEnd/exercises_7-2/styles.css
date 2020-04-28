@@ -127,40 +127,41 @@ section {
 }
 
 .exercise-11 > :nth-child(n) {
+    animation-name: anima6;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
 }
 
-.exercise-11_1 {
-    animation-name: anima6;
-    transition-timing-function: linear;
+.exercise-11_1 { 
+    animation-timing-function: linear;
 }
 
 .exercise-11_2 {
-    animation-name: anima6;
-    transition-timing-function: ease-in-out;
+    animation-timing-function: ease;
 }
 
 .exercise-11_3 {
-    animation-name: anima6;
-    transition-timing-function: ease-in;
+    animation-timing-function: ease-in;
 }
 
 .exercise-11_4 {
-    animation-name: anima6;
-    transition-timing-function: ease-out;
+    animation-timing-function: ease-out;
 }
 
 .exercise-11_5 {
-    animation-name: anima6;
-    transition-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
 }
 
 .exercise-12 {
     animation-name: anima7;
     animation-duration: 1s;
+    animation-play-state: paused;
     animation-fill-mode: forwards;
+}
+
+.exercise-12:active {
+    animation-play-state: running;
 }
 
 
