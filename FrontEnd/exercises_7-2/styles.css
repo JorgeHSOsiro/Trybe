@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.flex-direction__column {
+    flex-direction: column;
+}
+
+.justify-content__space-between {
+    justify-content: space-between;
+}
+
+.justify-content__center {
+    justify-content: center;
+}
+
+.align-items__flex-start {
+    align-items: flex-start;
+}
+
+.automatic-box-height {
+    height: auto;
+}
+
+.ball {
+    border-radius: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.medium {
+    width: 50px;
+    height: 50px;
+}
+
+.exercise-1 {
+    animation-name: anima;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+
+.exercise-2 {
+    animation-name: anima;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.exercise-3 {
+    animation-name: anima;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.exercise-4:hover {
+    animation-name: anima;
+    animation-duration: 5s;
+    animation-play-state: playing;
+}
+
+.section-5:hover > .exercise-5 {
+    animation-name: anima;
+    animation-duration: 5s;
+}
+
+.exercise-6-square:hover + .exercise-6 {
+    animation-name: anima2;
+    animation-duration: 5s;
+    
+}
+
+.exercise-7 {
+    animation-name: anima3;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.exercise-8 {
+    animation-name: anima4;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.exercise-9 {
+    animation-name: anima5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.exercise-10 {
+    animation-name: anima3, anima5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.exercise-11 > :nth-child(n) {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.exercise-11_1 {
+    animation-name: anima6;
+    transition-timing-function: linear;
+}
+
+.exercise-11_2 {
+    animation-name: anima6;
+    transition-timing-function: ease-in-out;
+}
+
+.exercise-11_3 {
+    animation-name: anima6;
+    transition-timing-function: ease-in;
+}
+
+.exercise-11_4 {
+    animation-name: anima6;
+    transition-timing-function: ease-out;
+}
+
+.exercise-11_5 {
+    animation-name: anima6;
+    transition-timing-function: ease-in-out;
+}
+
+.exercise-12 {
+    animation-name: anima7;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes anima {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 95%;
+    }
+}
+
+@keyframes anima2 {
+    from {
+        margin-right: 0;
+    }
+
+    to {
+        margin-right: 90%;
+    }
+}
+
+@keyframes anima3 {
+    from {
+        width: inherit;
+    }
+
+    to {
+        width: 50px;
+    }
+}
+
+@keyframes anima4 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes anima5 {
+    0% {
+        background-color: red;
+    }
+
+    33% {
+        background-color: yellow;
+    }
+
+    66% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes anima6 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 95%;
+    }
+}
+
+@keyframes anima7 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
