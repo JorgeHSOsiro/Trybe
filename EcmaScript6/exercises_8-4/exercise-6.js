@@ -3,7 +3,7 @@ const assert = require('assert');
 const removeVowels = (word) => {
     const characters = word.split('');
     const results = [];
-    let count = 0;
+    let num = 0;
   
     for (let i = 0; i < characters.length; i += 1) {
       if (
@@ -14,7 +14,7 @@ const removeVowels = (word) => {
         characters[i] === 'u'
       ) {
         count += 1;
-        results.push(count);
+        results.push(num);
       } else {
         results.push(characters[i]);
       }
