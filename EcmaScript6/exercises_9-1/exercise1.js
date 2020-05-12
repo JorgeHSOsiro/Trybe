@@ -1,6 +1,5 @@
 const assert = require('assert');
 
-
 const books = [
   {
     id: 1,
