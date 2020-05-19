@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 const obj1 = {
   title: 'My Title',
   description: 'My Description',
@@ -15,6 +13,4 @@ const obj3 = {
   description: 'My Description',
 };
 
-// implemente seus testes aqui
-assert.deepEqual(obj1, obj2)
-assert.notDeepEqual(obj2, obj3)
+module.exports = { obj1, obj2, obj3 };
