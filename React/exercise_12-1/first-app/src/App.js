@@ -26,7 +26,7 @@ class App extends React.Component {
         >
           Learn React
         </a>
-        {task(2)}
+        {task()}
       </header>
     </div>
   );
