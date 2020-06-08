@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const task = () => {
-  const array = ['React', 'javascript', 'node', 'pokemon']
+  const array = ['React', 'javascript', 'node', 'pokemon', 'redux']
   return array.map(element =>
     <li>{element}</li>
   );
