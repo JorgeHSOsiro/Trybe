@@ -12,4 +12,4 @@ class PokemonList extends Component {
     }
 }
 
-export default PokemonList
+export default PokemonList;

@@ -3,12 +3,21 @@
 }
 
 .pokemon-list {
+  justify-content: center;
+  
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  
 }
 
 .pokemon-cell {
   display: flex;
   border: 1px solid black;
+  border-radius: 15px;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px;
+  width: 250px;
 }

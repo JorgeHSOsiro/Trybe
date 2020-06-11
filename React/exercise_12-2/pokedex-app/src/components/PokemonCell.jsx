@@ -7,9 +7,9 @@ class PokemonCell extends Component {
         return (
             <div className="pokemon-cell">
                 <div className="pokemon-info">
-                <p className="pokemon-name">{ name }</p>
-                <p className="pokemon-type">{ type }</p>
-                <p className="pokemon-weight">{ averageWeight.value }{ averageWeight.measurementUnit }</p>
+                <p className="pokemon-name">Name: { name }</p>
+                <p className="pokemon-type">Type: { type }</p>
+                <p className="pokemon-weight">Weigth: { averageWeight.value }{ averageWeight.measurementUnit }</p>
                 </div>
                 <div className="pokemon-image">
                 <img className="pokemon-pic" src={ image } alt="imagem do pokemon" />
