@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-cell {
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
