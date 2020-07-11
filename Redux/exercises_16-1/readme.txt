@@ -5,7 +5,7 @@ exercise-4: https://www.freecodecamp.org/learn/front-end-libraries/redux/use-a-s
 exercise-5: https://www.freecodecamp.org/learn/front-end-libraries/redux/use-const-for-action-types
 exercise-6: https://www.freecodecamp.org/learn/front-end-libraries/redux/register-a-store-listener
 exercise-7: https://www.freecodecamp.org/learn/front-end-libraries/redux/combine-multiple-reducers
-exercise-8:
+exercise-8: https://www.freecodecamp.org/learn/front-end-libraries/redux/send-action-data-to-the-store
 exercise-9:
 exercise-10:
 exercise-11:
