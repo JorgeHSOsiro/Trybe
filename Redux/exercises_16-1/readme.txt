@@ -3,8 +3,8 @@ exercise-2: https://www.freecodecamp.org/learn/front-end-libraries/redux/dispatc
 exercise-3: https://www.freecodecamp.org/learn/front-end-libraries/redux/handle-an-action-in-the-store
 exercise-4: https://www.freecodecamp.org/learn/front-end-libraries/redux/use-a-switch-statement-to-handle-multiple-actions
 exercise-5: https://www.freecodecamp.org/learn/front-end-libraries/redux/use-const-for-action-types
-exercise-6:
-exercise-7:
+exercise-6: https://www.freecodecamp.org/learn/front-end-libraries/redux/register-a-store-listener
+exercise-7: https://www.freecodecamp.org/learn/front-end-libraries/redux/combine-multiple-reducers
 exercise-8:
 exercise-9:
 exercise-10:
