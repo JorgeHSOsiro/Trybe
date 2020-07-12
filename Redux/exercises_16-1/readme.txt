@@ -7,7 +7,7 @@ exercise-6: https://www.freecodecamp.org/learn/front-end-libraries/redux/registe
 exercise-7: https://www.freecodecamp.org/learn/front-end-libraries/redux/combine-multiple-reducers
 exercise-8: https://www.freecodecamp.org/learn/front-end-libraries/redux/send-action-data-to-the-store
 exercise-9: https://www.freecodecamp.org/learn/front-end-libraries/redux/write-a-counter-with-redux
-exercise-10:
+exercise-10: https://www.freecodecamp.org/learn/front-end-libraries/redux/never-mutate-state
 exercise-11:
 exercise-12:
 exercise-13:
