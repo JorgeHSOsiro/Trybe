@@ -8,6 +8,6 @@ exercise-7: https://www.freecodecamp.org/learn/front-end-libraries/redux/combine
 exercise-8: https://www.freecodecamp.org/learn/front-end-libraries/redux/send-action-data-to-the-store
 exercise-9: https://www.freecodecamp.org/learn/front-end-libraries/redux/write-a-counter-with-redux
 exercise-10: https://www.freecodecamp.org/learn/front-end-libraries/redux/never-mutate-state
-exercise-11:
+exercise-11: https://www.freecodecamp.org/learn/front-end-libraries/redux/use-the-spread-operator-on-arrays
 exercise-12:
 exercise-13:
