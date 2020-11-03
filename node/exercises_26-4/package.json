@@ -1,0 +1,19 @@
+{
+  "name": "exercises_26-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex-1.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
